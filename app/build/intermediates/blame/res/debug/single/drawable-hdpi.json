@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\andrew\\Clovis\\BlueHelm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\over_current.png",
+        "source": "C:\\Users\\andrew\\Clovis\\BlueHelm\\app\\src\\main\\res\\drawable-hdpi\\over_current.png"
+    },
+    {
+        "merged": "C:\\Users\\andrew\\Clovis\\BlueHelm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\andrew\\Clovis\\BlueHelm\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\andrew\\Clovis\\BlueHelm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\current_limit.png",
+        "source": "C:\\Users\\andrew\\Clovis\\BlueHelm\\app\\src\\main\\res\\drawable-hdpi\\current_limit.png"
+    },
+    {
+        "merged": "C:\\Users\\andrew\\Clovis\\BlueHelm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bat.png",
+        "source": "C:\\Users\\andrew\\Clovis\\BlueHelm\\app\\src\\main\\res\\drawable-hdpi\\bat.png"
+    },
+    {
+        "merged": "C:\\Users\\andrew\\Clovis\\BlueHelm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\compass_sheen.png",
+        "source": "C:\\Users\\andrew\\Clovis\\BlueHelm\\app\\src\\main\\res\\drawable-hdpi\\compass_sheen.png"
+    },
+    {
+        "merged": "C:\\Users\\andrew\\Clovis\\BlueHelm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\compass6.png",
+        "source": "C:\\Users\\andrew\\Clovis\\BlueHelm\\app\\src\\main\\res\\drawable-hdpi\\compass6.png"
+    },
+    {
+        "merged": "C:\\Users\\andrew\\Clovis\\BlueHelm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\temp.png",
+        "source": "C:\\Users\\andrew\\Clovis\\BlueHelm\\app\\src\\main\\res\\drawable-hdpi\\temp.png"
+    },
+    {
+        "merged": "C:\\Users\\andrew\\Clovis\\BlueHelm\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\temp_shutdown.png",
+        "source": "C:\\Users\\andrew\\Clovis\\BlueHelm\\app\\src\\main\\res\\drawable-hdpi\\temp_shutdown.png"
+    }
+]
