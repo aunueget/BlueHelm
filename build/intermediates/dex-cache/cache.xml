@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\andrew\Clovis\BlueHelm\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\andrew\Desktop\BlueHelm\BlueHelm\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="5e9113e7cc967f566e7098612c92b2bec301069c">
-        <dex dex="C:\Users\andrew\Clovis\BlueHelm\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_882a1529935e1649acae9ad183f773eae11804e1\classes.dex" />
+        sha1="1a33c5c3015fd757abfcf5fc07cce0f853947db8">
+        <dex dex="C:\Users\andrew\Desktop\BlueHelm\BlueHelm\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a6ee96c050aaaf16cb8903bdbe912b95a21ad423\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\andrew\Clovis\BlueHelm\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\andrew\Desktop\BlueHelm\BlueHelm\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\andrew\Clovis\BlueHelm\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d76b9f6593f0fdc53fa9ae352155f14acfb75d4a\classes.dex" />
+        <dex dex="C:\Users\andrew\Desktop\BlueHelm\BlueHelm\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a1964b0191a9385cd300ed28067cd818047298ee\classes.dex" />
     </item>
 
 </items>

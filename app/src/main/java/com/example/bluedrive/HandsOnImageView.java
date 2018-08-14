@@ -21,6 +21,7 @@ public class HandsOnImageView extends ImageView {
 	public int triangleLocation[];
 	private boolean autoDrive;
 	private boolean autoOn;
+    private boolean movingDesiredHeading;
 	private Point centerPoint;
 	private boolean touchClicked;
 	public Path pathTriangles;
@@ -78,6 +79,7 @@ public class HandsOnImageView extends ImageView {
         triangleLocation[TrianglePoints.SMALL_TRIANGLE_TAIL] = 180;
         desiredHeading = triangleLocation[TrianglePoints.MED_TRIANGLE];
         autoDrive = false;
+        movingDesiredHeading = false;
         //get bitmap position
         touchClicked = false;
         autoOn = false;
@@ -98,10 +100,7 @@ public class HandsOnImageView extends ImageView {
 				&& distance(touchedPoint, this.triangles.getTriangle(
 						this.triangleLocation[TrianglePoints.MED_TRIANGLE],
 						RadialTriangle.TriangleType.CIRCLE)) < 100) {
-			this.triangleLocation[TrianglePoints.MED_TRIANGLE] = triangles.getAngleToNorth(touchedPoint);
-			this.desiredHeading = this.triangleLocation[TrianglePoints.MED_TRIANGLE];
-            this.triangleLocation[TrianglePoints.MED_TRIANGLE_TAIL] = triangles
-					.getOppisiteAngle(this.triangleLocation[TrianglePoints.MED_TRIANGLE]);
+            movingDesiredHeading = true;
 			this.invalidate();
 
 			return true;
@@ -110,6 +109,12 @@ public class HandsOnImageView extends ImageView {
 		if (action == MotionEvent.ACTION_DOWN) {
 			touchClicked = true;
 		} else if (action == MotionEvent.ACTION_MOVE) {
+            if(movingDesiredHeading){
+                this.triangleLocation[TrianglePoints.MED_TRIANGLE] = triangles.getAngleToNorth(touchedPoint);
+                this.desiredHeading = this.triangleLocation[TrianglePoints.MED_TRIANGLE];
+                this.triangleLocation[TrianglePoints.MED_TRIANGLE_TAIL] = triangles
+                        .getOppisiteAngle(this.triangleLocation[TrianglePoints.MED_TRIANGLE]);
+            }
 
 		} else if (action == MotionEvent.ACTION_UP) {
 			if (touchClicked) {
@@ -124,6 +129,8 @@ public class HandsOnImageView extends ImageView {
 				}
 				touchClicked = false;
 			}
+
+            movingDesiredHeading = false;
 			return true;
 		}
 		// TODO Auto-generated method stub
